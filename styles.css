@@ -1,0 +1,43 @@
+/* Basic reset and styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Product container styling */
+.product {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+/* Title styling */
+.product p {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.product p:first-child {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styling for individual properties */
+
+
+.product .price {
+  color: #27ae60;
+  font-weight: bold;
+}
+
